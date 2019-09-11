@@ -17,14 +17,14 @@ title {
     /* display: inline-block; */
     color: red;
     margin: 0 auto;
-    /* padding: 2em; */
+    padding: 2em;
     text-align: center;
   }
 
   body {
       color:grey;
       margin: 0;
-      background-image: url(Mind_control_helmet.png); 
+      /* background-image: url(Mind_control_helmet.png);  */
       position: center;
       min-height: 100%;
       min-width: 100%;
@@ -40,37 +40,47 @@ main {
   }
 
   img {
-      background-size: 2em;
-      min-height: 20%;
-      min-width: 20%;
-      max-width: 100%;
+    display: block;
+    margin: auto;
+    background-size: 2em;
+    min-height: 20%;
+    min-width: 20%;
+    max-width: 100%;
+  }
+
+  .hassle {
+      display: block;
+      margin: 0;
+      size: 0.25em;
   }
 
 #landing_page_main {
-    display: flex;
+    margin: auto;
+    padding: 10%;
+    display: inline-block;
     flex-direction: column;
     align-items: center;
     position: center;
     justify-content: center;
 }
-  .parent {
-      display: flex;
-      min-height: 50vh;
-      margin: 0 4%;
-      margin-top: 5em;
+.parent {
+    display: flex;
+    min-height: 50vh;
+    margin: 0 4%;
+    margin-top: 5em;
 
   }
 
-  .child {
-      background-color: paleturquoise;
-      flex: 1;
-      margin: 1rem;
-      padding: 1rem ;
-  }
+.child {
+    background-color: paleturquoise;
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem ;
+}
 
-  .child.child--big {
-      flex: 3;
-  }
+.child.child--big {
+    flex: 3;
+}
 
 #customers{
     padding: .5rem;
@@ -85,4 +95,4 @@ main {
     min-width: 10%;
     max-height: 90%;
     background-size: 1em;
-}
+    }
