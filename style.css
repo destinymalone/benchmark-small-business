@@ -2,14 +2,15 @@
     box-sizing: border-box;
 }
 
-title {
-    display: inline-block;
+.title {
+    /* display: inline-block; */
     margin: 0;
     padding: 0;
-    color: lightseagreen;
+    color: red;
     margin: 1 auto;
     padding: 2rem; 
     text-align: center;
+    position: center;
 
   }
   
@@ -31,12 +32,11 @@ title {
       background-size:  cover;
   }
 
-main {
-    margin: 20vh 15vh 15vh 15vh;
-}
   p {
       color: black;
       padding: 1rem;
+      margin: auto;
+      font-family: fantasy; 
   }
 
   img {
