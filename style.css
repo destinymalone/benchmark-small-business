@@ -105,3 +105,19 @@
     max-height: 90%;
     background-size: 1em;
     }
+
+  .consumer {
+    bottom: 20%;
+    display: block;
+    size: 30%;
+    width: 50%;
+    height: 50%;
+
+  }
+
+  .paragraph {
+    padding-top: .05%;
+    margin-top: .10%;
+    position: relative;
+    text-align: center;
+  }
