@@ -61,7 +61,7 @@ img {
   position: center;
   background-size: 2em;
   width: 290px;
-  height: 280px;
+  height: 310px;
   min-width: 20%;
   min-height: 20%;
   max-width: 100%;
@@ -141,4 +141,10 @@ img {
 
 .press {
   margin-top: -1rem;
+}
+
+.about_paragraphs {
+  max-width: 750px;
+  height: 22rem;
+  margin-left: 2rem;
 }
