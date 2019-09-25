@@ -8,6 +8,7 @@
   color: red;
   position: center;
   text-align: center;
+  font-family: sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -15,6 +16,7 @@ h1, h2, h3, h4 {
   padding: 2em;
   color: red;
   text-align: center;
+  font-family: sans-serif;
 }
 
 body {
@@ -130,4 +132,9 @@ img {
 
 .home-content {
   margin: 3% 20% 10% 22%;
+}
+
+.gif {
+  width: 600px;
+  margin-bottom: 2rem;
 }
